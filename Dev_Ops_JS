@@ -1,0 +1,51 @@
+Devops =["Ansible","Jenkins","Git","Maven","Docker","Bash Scripting"]
+Dev =("java","js","html","css","Bash Scripting","C++")
+Emp_Info1 ={"Name":"Yash", "id":2, "Location":"Pune"}
+Emp_Info2 ={"Name":"San", "id":3, "Location":"Mumbai"}
+Emp_Info3 ={"Name":"Jen", "id":31, "Location":"UK"}
+Emp_Info4 ={"Name":"Lavanya","id":12,"Location":"Dubai"}
+
+emp_skill = input("Enter your skills:")
+if emp_skill in Devops:
+    print("This {} skills is in Devops group".format(Devops))
+elif(emp_skill in Dev):
+    print("This {} skill is in Dev Team".format(Dev))
+elif(emp_skill in Emp_Info1):
+    print("This {} skill is in E1 Team".format(Emp_Info1))
+
+elif(emp_skill in Emp_Info2):
+    print(f"This {Emp_Info2} skill is in E2 Team")
+
+elif(emp_skill in Emp_Info3):
+    print("This {} skill is in E3 Team".format(Emp_Info3))
+    fi
+else:
+    print("This {} skill is in Dev Emp_Info4".format(Emp_Info4))
+
+
+
+
+
+name = "Yashvant"
+surname = "Ghonsikar"
+eid = 2
+print(name[1])
+print(name[4])
+
+info =["Yash", 2 , 123456.45]
+print("All info",type(info))
+info =("Yash", 2 , 123456.45)
+print("All info", type(info))
+
+
+info_for = {
+    "name" : "Yash",
+    "id" : 2,
+    "salary" : 123456.45,
+    "hobby" : ["cricket","travelling", "movies"]
+}
+print("All info",type(info_for))
+
+print("Empolyee name is {name} {surname}and  emp id is {eid}")
+print("emp name is {} and id is {}".format(name, eid))
+
